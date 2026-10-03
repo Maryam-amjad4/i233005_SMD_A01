@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Flex++",
+    "slug": "flexpp",
+    "scheme": "flexpp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "nu.edu.fast.flexpp"
+    },
+    "android": {
+      "package": "nu.edu.fast.flexpp",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F2A47",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
